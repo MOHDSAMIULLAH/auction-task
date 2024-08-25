@@ -50,8 +50,7 @@ This project implements two microservices:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/MOHDSAMIULLAH/auction-task.git
-   cd auction-task
+   git clone https://github.com/MOHDSAMIULLAH/wasserstoff-FullstackInternTask.git
    ```
 
 2. **Install dependencies:**
