@@ -22,9 +22,9 @@ This project implements two microservices:
 
 - **Admin**
   - Access all user data.
-  - Authentication using a static API secret.
+ 
 - **User**
-  - Create, read, update, and delete users.
+  - Create & read users.
   - Login with token-based authentication.
 
 ### Auction Management
@@ -43,7 +43,6 @@ This project implements two microservices:
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Authentication:** JWT (JSON Web Tokens)
-- **Testing:** Mocha, Chai, Sinon
 - **ORM:** Mongoose
 
 ## Installation
@@ -51,8 +50,8 @@ This project implements two microservices:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/auction-system.git
-   cd auction-system
+   git clone https://github.com/MOHDSAMIULLAH/auction-task.git
+   cd auction-task
    ```
 
 2. **Install dependencies:**
@@ -74,11 +73,6 @@ This project implements two microservices:
 
    ```bash
    npm start
-   ```
-
-5. **Run unit tests:**
-   ```bash
-   npm test
    ```
 
 ## API Endpoints
@@ -126,12 +120,5 @@ This project implements two microservices:
   - Requires a valid JWT token.
 
 - **End auction:**
-  - `PUT /api/auctions/;id/end`
+  - `PUT /api/auctions/:id/end`
 
-## Testing
-
-- Unit tests are implemented using Mocha, Chai, and Sinon.
-- Run the tests using the command:
-  ```bash
-  npm test
-  ```
